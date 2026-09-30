@@ -1,0 +1,34 @@
+
+import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter/foundation.dart';
+
+import 'package:proyect/config/routes.dart';
+import 'package:proyect/config/app_theme.dart';
+import 'firebase_options.dart';
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
+
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return 
+    MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Gestión de Equipos',
+      theme: AppTheme.lightTheme,
+      initialRoute: AppRoutes.splash,
+      routes: AppRoutes.routes,
+    );
+  }
+}

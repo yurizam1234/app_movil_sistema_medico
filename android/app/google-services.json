@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "898332310060",
+    "project_id": "gestionbiomedica-b09c6",
+    "storage_bucket": "gestionbiomedica-b09c6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898332310060:android:7023b2ae2f1f0609e92f89",
+        "android_client_info": {
+          "package_name": "com.example.proyect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjXVGkbNOx9Sr6KJ4qxbkU1N_X6zpOmVo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898332310060:android:ab84edb8a03d13a9e92f89",
+        "android_client_info": {
+          "package_name": "com.example.sistems"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjXVGkbNOx9Sr6KJ4qxbkU1N_X6zpOmVo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
